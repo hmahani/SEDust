@@ -1,0 +1,56 @@
+ ===========================
+  Output from program Dusty 
+  Version: 2.0
+ ===========================
+  
+  INPUT parameters from file:
+  Test2.inp                                                             
+  
+  Central source spectrum described by a black body                       
+  with temperature: 2400 K
+  --------------------------------------------
+  Abundances for supported grains:
+  Sil-Ow Sil-Oc Sil-DL grf-DL amC-Hn SiC-Pg
+  0.000  0.000  0.000  0.000  0.850  0.150
+  MRN size distribution:
+       Power q:  3.5
+  Minimal size: 5.00E-03 microns
+  Maximal size: 2.50E-01 microns
+  --------------------------------------------
+  Dust temperature on the inner boundary: 500  K
+  --------------------------------------------
+  Density for radiatively driven winds from
+  analytic approximation for gray dust.
+  Relative thickness: 1.000E+04
+  --------------------------------------------
+  Optical depth at 2.2E+00 microns: 1.25E+00
+  Required accuracy: 5%
+  --------------------------------------------
+  
+  ====================================================  
+  For compliance with the point-source assumption, the
+  following results should only be applied to sources 
+  whose effective temperature exceeds 1000 K.
+  ====================================================
+          
+  RESULTS:
+  --------
+ ###   tau0   F1(W/m2)  r1(cm)    r1/rc   theta1  Td(Y) err   Mdot      Ve       M> 
+ ###     1        2        3        4        5      6    7      8        9       10 
+ ======================================================================================
+   1 1.25E+00 1.15E+03 1.63E+15 4.05E+01 1.22E+01   12   1  1.31E-05 8.40E+00 8.63E+00
+ ======================================================================================
+   (1) Optical depth at 2.2E+00 microns
+   (2) Bolometric flux at the inner radius 
+   (3) Inner radius for L=1E4 Lsun
+   (4) Ratio of the inner to the stellar radius
+   (5) Angular size (in arcsec) when Fbol=1E-6 W/m2
+   (6) Dust temperature at the outer edge (in K)
+   (7) Maximum error in flux conservation (%)
+   (8) Mass-loss rate (in Msun/yr)
+   (9) Terminal outflow velocity (in km/s)
+   (10) Upper limit of the stellar mass (in Msun)
+ =================================================
+  Everything is OK for all models
+  All spectra are in file *.stb
+ ========== THE END ==============================
