@@ -10,7 +10,6 @@ It is designed to estimate **luminosities**, **optical depths**, and **mass-loss
 - Handles both **carbon-rich** and **oxygen-rich** stars.  
 - Returns best-fit **SEDs**, **luminosities**, and **mass-loss rates**.  
 - Automated pipeline: no trial-and-error fitting required.  
-- Higher resolution compared to DESK code.  
 
 ---
 
