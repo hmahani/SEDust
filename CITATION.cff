@@ -1,0 +1,21 @@
+```yaml
+cff-version: 1.2.0
+title: "SEDust: A pipeline for fitting AGB star SEDs with DUSTY models to derive luminosity and mass-loss rates"
+type: software
+license: MIT
+authors:
+  - family-names: Mahani
+    given-names: Hamidreza
+    orcid: "https://orcid.org/0009-0002-9957-5818"
+repository-code: "https://github.com/hmahani/SEDust"
+abstract: "SEDust is a Python pipeline for fitting spectral energy distributions of evolved stars using the DUSTY radiative transfer code. It is designed to estimate luminosities, optical depths, and mass-loss rates for AGB and LPV stars based on multi-band photometric data."
+keywords:
+  - AGB stars
+  - long-period variables
+  - circumstellar dust
+  - spectral energy distributions
+  - DUSTY
+  - mass loss
+  - stellar evolution
+message: "If you use this software, please cite it using the information provided here."
+```
